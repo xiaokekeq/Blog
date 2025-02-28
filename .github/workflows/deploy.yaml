@@ -7,9 +7,17 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+          node-version: '18'  # 这里可以根据需要设置为 18 或更高版本，如 20
+    - name: Install dependencies
+      run: npm install
+    - name: Build
+      run: npm run build
+    - name: Deploy
     - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
+      uses: xiaoke/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}} #刚刚生成的secret
         TARGET_REPO: xiaokekeq/Blog.git #仓库地址
