@@ -45,49 +45,46 @@ projects:
     desc: 关于git
     link: /posts/git_use.html
 
-  # - icon: article5
-  #   name: java1
-  #   desc: java_Thread
-  #   link: /posts/java/java_Thread.html
-  - icon: article7
-    name: java2
-    desc: JavaWeb
-    link: /posts/java/JavaWeb.html
-  - icon: article8
-    name: java3
-    desc: 注解(Annotation)和反射(Reflection)
-    link: /posts/java/注解(Annotation)和反射(Reflection).html
-  - icon: article9
-    name: java4
-    desc: web_coding
-    link: /posts/java/web_coding.html
+ 
+  # - icon: article7
+  #   name: java2
+  #   desc: JavaWeb
+  #   link: /posts/java/JavaWeb.html
+  # - icon: article8
+  #   name: java3
+  #   desc: 注解(Annotation)和反射(Reflection)
+  #   link: /posts/java/注解(Annotation)和反射(Reflection).html
+  # - icon: article9
+  #   name: java4
+  #   desc: web_coding
+  #   link: /posts/java/web_coding.html
   - icon: article10
-    name: java5
+    name: java
     desc: Spring
     link: /posts/java/Spring.html
   - icon: article11
-    name: java6
+    name: java
     desc: SpringMVC
     link: /posts/java/SpringMVC.html
   - icon: article12
-    name: java7
+    name: java
     desc: SpringBoot
     link: /posts/java/SpringBoot.html
   - icon: article12
-    name: java8
+    name: java
     desc: SpringCloud
     link: /posts/java/SpringCloud.html  
   - icon: article13
-    name: java9
+    name: java
     desc: SpringSecurity
     link: /posts/java/SpringSecurity.html
   - icon: article14
-    name: java10
-    desc: Mybatis
+    name: Mybatis
+    desc: Database_Operation
     link: /posts/java/Mybatis.html
   - icon: article15
-    name: java11
-    desc: MybatisPlus
+    name: MybatisPlus
+    desc: Database_Operation
     link: /posts/java/MybatisPlus.html
   - icon: article16
     name: java12

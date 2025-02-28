@@ -2,9 +2,9 @@
 icon: pen-to-square
 date: 2024-03-05
 category:
-  - java_Thread
-tag:
   - java
+tag:
+  - javaThread
 star: true
 ---
 # 多线程

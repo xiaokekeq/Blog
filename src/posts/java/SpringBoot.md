@@ -2,9 +2,9 @@
 icon: pen-to-square
 date: 2024-03-15
 category:
-  - SpringBoot
-tag:
   - java
+tag:
+  - SpringBoot
 star: true
 ---
 # 微服务阶段

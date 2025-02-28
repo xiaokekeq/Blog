@@ -2,9 +2,9 @@
 icon: pen-to-square
 date: 2024-03-07
 category:
-  - Annotation&Reflection
-tag:
   - java
+tag:
+  - Annotation&Reflection
 star: true
 ---
 # 注解(Annotation)和反射(Reflection)

@@ -2,9 +2,9 @@
 icon: pen-to-square
 date: 2024-03-15
 category:
-  - MybatisPlus
-tag:
   - java
+tag:
+  - MybatisPlus
 star: true
 ---
 # MybatisPlus概述

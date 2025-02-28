@@ -2,12 +2,12 @@
 icon: pen-to-square
 date: 2024-03-15
 category:
-  - SpringCloud
-tag:
   - java
+tag:
+  - SpringCloud
 star: true
 ---
-SpringCloud笔记
+# SpringCloud笔记
 
 ## 1、前言
 

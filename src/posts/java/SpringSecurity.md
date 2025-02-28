@@ -2,9 +2,9 @@
 icon: pen-to-square
 date: 2024-03-15
 category:
-  - SpringSecurity
-tag:
   - java
+tag:
+  - SpringSecurity
 star: true
 ---
 # 安全框架
