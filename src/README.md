@@ -7,6 +7,8 @@ heroImage: R-C.png
 heroText: xiaoke
 heroFullScreen: true
 tagline: 学习前后端
+bgImage: xiaoxin2.png
+bgImageDark: xiaoxin.png
 projects:
   # - icon: project
   #   name: 项目名称
