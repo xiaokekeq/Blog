@@ -1,0 +1,18 @@
+name: Build and Deploy
+on: [push] #监听push动作
+# 任务
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ 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N }} #刚刚生成的secret
+        TARGET_REPO: xiaokekeq/Blog #仓库地址
+        TARGET_BRANCH: gh-pages #目标分支，gh-pages一般用来存放生成的静态文件
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: docs/.vuepress/dist/ #生成的静态文件存放目录
